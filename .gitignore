@@ -1,0 +1,29 @@
+
+# Ignore composer dependencies
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/profiles/contrib/
+/web/themes/contrib/
+
+# Ignore DDEV-specific files
+.ddev/
+
+# Ignore Docker-specific files
+docker-compose*
+Dockerfile
+.env
+
+# Ignore Drush files
+drush-backups/
+drush-commands/
+
+# Ignore generated files
+/sites/default/files/
+/sites/default/settings.local.php
+/sites/default/*.local.yml
+/sites/default/*.local.services.yml
+
+# Ignore OS-specific and log files
+.DS_Store
+*.log

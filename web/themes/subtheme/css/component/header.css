@@ -1,0 +1,11 @@
+.header {
+  background-color: #83eb9b;
+  color: #fff;
+  animation: flash-header 1s infinite;
+}
+
+@keyframes flash-header {
+  0% { background-color: #2cf4d9; } 
+  50% { background-color: #e739e4; } 
+  100% { background-color: #f2ff00; } 
+}
