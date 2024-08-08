@@ -9,4 +9,8 @@ This repository contains a Drupal 11 project configured to work with Docker, DDE
 
 ## Notes:
 
-The subtheme was built off the core theme "stable"
+- The username and password for the admin account are as follows:
+**Username:** Admin2
+**Password:** password
+
+- The subtheme was built off the core theme "stable"
